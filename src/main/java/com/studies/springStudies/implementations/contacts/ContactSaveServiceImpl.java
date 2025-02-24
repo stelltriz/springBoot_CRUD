@@ -26,7 +26,7 @@ public class ContactSaveServiceImpl implements ContactSaveService {
     @Override
     public ResponseEntity<Map<String, Object>> save(ContactData contactData){
 
-        if(contactRepository.existsByNumber(contactData.phone())){
+        if(contactRepository.existsByPhone(contactData.phone())){
             throw new RegraDeNegocioException("Este número já está em sua agenda");
         }
 
