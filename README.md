@@ -12,8 +12,3 @@ Allows users to add, view, update, and delete contacts.
 - View all contacts
 - Update contact details
 - Delete contacts
-
-### 🚀 How to Run
-- Clone the repository
-- Configure your database (if needed)
-- Build and run the application using IntelliJ
